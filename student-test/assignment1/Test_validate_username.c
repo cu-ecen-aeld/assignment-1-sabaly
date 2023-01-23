@@ -22,5 +22,6 @@ void test_validate_my_username()
     const char* usernameFromAuto = my_username();
     TEST_ASSERT_EQUAL_STRING_MESSAGE(usernameFromConf, usernameFromAuto, "But did not match");
 
-    TEST_ASSERT_TRUE_MESSAGE(true,"AESD students, please fix me!");
+    //TEST_ASSERT_TRUE_MESSAGE(true,"AESD students, please fix me!");
+    free(usernameFromConf);
 }

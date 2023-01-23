@@ -6,7 +6,7 @@
 # 1. WRITEFILE (path including filename)
 # 2. WRITESTR (string text)
 
-if [ $# != 2 ]
+if [ $# -ne 2 ]
 then
     echo "Expected 2 arguments"
     exit 1

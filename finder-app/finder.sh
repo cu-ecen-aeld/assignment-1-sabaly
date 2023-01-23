@@ -11,7 +11,7 @@ set -u
 x=0
 y=0
 
-if [ $# != 2 ]
+if [ $# -ne 2 ]
 then
     echo "Expected 2 arguments"
     exit 1
